@@ -1,0 +1,207 @@
+body {
+  background-color: #19191c;
+
+  overflow-x: hidden;
+}
+
+.nav1 {
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+}
+
+.nav1 button {
+  background-color: #fd356e;
+  color: aliceblue;
+  border-radius: 20px;
+}
+
+.items {
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+  gap: 20px;
+  list-style: none;
+  margin-right: 580px;
+}
+.items p {
+  font-size: 30px;
+}
+
+.nav1 img {
+  margin-left: 20px;
+  padding: 16px;
+}
+.nav1 ul li a {
+  font-size: 18px;
+}
+.nav1 button {
+  width: 150px;
+  border-radius: 10px;
+  height: 51px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 9px;
+}
+
+.items li {
+  justify-content: space-between;
+  gap: 20px;
+}
+.items li a {
+  color: aliceblue;
+  text-decoration: none;
+  
+}
+
+.item2 {
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  color: white;
+  margin: 120px 0px 10px 40px;
+  background-color: transparent;
+  text-decoration: none;
+  object-fit: contain;
+  border-radius: 10px;
+  border: 1px solid red;
+}
+.item1 p {
+  margin-bottom: 200px;
+}
+
+.content1 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.con1 {
+  color: white;
+  font-size: 64px;
+  font-weight: 400;
+  font-family: sans-serif;
+  margin-left: 20px;
+}
+
+.con2 {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: sans-serif;
+}
+.nav {
+  width: 100%;
+  height: 75px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+.regis {
+  color: white;
+  margin-top: 28px;
+  font-size: 18px;
+  margin-right: 100px;
+  font-family: arial, sans;
+}
+.dash {
+  align-content: center;
+  width: 100%;
+}
+.text1 {
+  color: aliceblue;
+  font-weight:bolder;
+  font-size: 40px;
+  text-align: center;
+}
+
+.techlogo {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  fill: white;
+  align-items: center;
+  justify-content: space-around;
+}
+.techlogo2{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    fill: white;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.techlogo img {
+  align-items: center;
+  flex-wrap: wrap;
+}
+.techlogo2 img{
+    align-items: center;
+  flex-wrap: wrap;
+}
+
+.content2 button {
+  width: 150px;
+  height: 51px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  left: 150px;
+  background-color: #fd356e;
+  color: aliceblue;
+  border-radius: 20px;
+}
+
+.content2 pre,
+h1 {
+  text-align: center;
+  color: white;
+}
+.para{
+    text-align: center;
+  color: white;
+  font-size: 25px;
+  font-weight: 300;
+  color: rgb(172,172,175);
+ 
+
+}
+
+.content2 h1 {
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.content2 pre {
+  font-size: 25px;
+  font-weight: 300;
+  color: rgb(172,172,175);
+  margin-bottom: 200px;
+}
+.content2 button{
+ margin-left: 680px;
+ margin-top: 100px;
+ width: 120px;
+ height: 50px;
+ font-size: 18px;
+ font-family: arial;
+ box-shadow: 2px 3px rgb(56, 54, 54);
+ border-radius: 10px;
+}
+
+.item3 {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item3 pre {
+  color: white;
+}
+.item4P{
+    text-align: center;
+}
